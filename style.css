@@ -1,0 +1,85 @@
+/**{
+  border: 1px solid red;
+}*/
+
+body{
+  width: 100%;
+}
+
+table{
+  margin: auto;
+}
+
+em{
+  font-family: fantasy;
+  font-size: 15pt;
+}
+
+p{
+  margin: 15px;
+  text-align: justify;
+}
+
+img{
+  height: 500px;
+}
+
+img#frenchie{
+  border: 2px dashed  gray;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+td.navcell{
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+td.navcell:hover{
+  background-color: #8080ff;
+  font-weight: bold;
+}
+
+a:visited{
+  color: gray;
+}
+
+a:hover{
+  color: black;
+}
+
+h2#backgroundgif{
+  background-position: center;
+  background-image: url("downarrow.gif");
+  background-repeat: no-repeat;
+}
+
+footer{
+  padding-left: 10px;
+  width: 135px;
+  background-position: -5px;
+  background-image: url("backgroundbutton.png");
+  background-size: 150px 20px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 740px) {
+  body{
+    background-color: pink;
+  }
+
+  img{
+    width: 500px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: auto;
+  }
+
+  table{
+    width: 500px;
+  }
+}
